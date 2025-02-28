@@ -1,0 +1,99 @@
+/* Admin Leave Requests Container */
+.manage-leave-container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Table Headers */
+  th {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+  }
+  
+  /* Table Rows */
+  td {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Alternate Row Colors */
+  tr:nth-child(even) {
+    background: #f8f9fa;
+  }
+  
+  /* Status Colors */
+  td:nth-child(5) {
+    font-weight: bold;
+  }
+  
+  /* Approved */
+  td:nth-child(5):contains('APPROVED') {
+    color: green;
+  }
+  
+  /* Rejected */
+  td:nth-child(5):contains('REJECTED') {
+    color: red;
+  }
+  
+  /* Pending */
+  td:nth-child(5):contains('PENDING') {
+    color: orange;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Approve Button */
+  button:first-child {
+    background: #28a745;
+    color: white;
+  }
+  
+  button:first-child:hover {
+    background: #218838;
+  }
+  
+  /* Reject Button */
+  button:last-child {
+    background: #dc3545;
+    color: white;
+    margin-left: 5px;
+  }
+  
+  button:last-child:hover {
+    background: #c82333;
+  }
+  

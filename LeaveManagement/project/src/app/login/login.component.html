@@ -1,0 +1,20 @@
+<div class="login-container">
+  <h2>Login</h2>
+
+  <!-- Role Selection -->
+  <div class="role-selection">
+    <label>
+      <input type="radio" [(ngModel)]="isStudentLogin" [value]="true" name="role"> Student
+    </label>
+    <label>
+      <input type="radio" [(ngModel)]="isStudentLogin" [value]="false" name="role"> Admin
+    </label>
+  </div>
+
+  <!-- Login Form -->
+  <div class="login-form">
+    <input type="text" [(ngModel)]="user.pinNumber" placeholder="PIN Number" required>
+    <input type="password" [(ngModel)]="user.password" placeholder="Password" required>
+    <button (click)="login()">Login</button>
+  </div>
+</div>

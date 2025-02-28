@@ -1,0 +1,13 @@
+<h2>Apply for Leave</h2>
+<form (ngSubmit)="applyLeave()">
+  <label>Start Date:</label>
+  <input type="date" [(ngModel)]="leave.startDate" name="startDate" required />
+
+  <label>End Date:</label>
+  <input type="date" [(ngModel)]="leave.endDate" name="endDate" required />
+
+  <label>Reason:</label>
+  <textarea [(ngModel)]="leave.reason" name="reason" required></textarea>
+
+  <button type="submit">Apply Leave</button>
+</form>

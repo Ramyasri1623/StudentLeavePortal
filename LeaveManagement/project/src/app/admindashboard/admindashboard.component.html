@@ -1,0 +1,22 @@
+<h2>Manage Leave Requests</h2>
+<table border="1">
+  <tr>
+    <th>PIN Number</th>
+    <th>Start Date</th>
+    <th>End Date</th>
+    <th>Reason</th>
+    <th>Status</th>
+    <th>Actions</th>
+  </tr>
+  <tr *ngFor="let leave of leaves">
+    <td>{{ leave.pinNumber }}</td>
+    <td>{{ leave.startDate }}</td>
+    <td>{{ leave.endDate }}</td>
+    <td>{{ leave.reason }}</td>
+    <td>{{ leave.status }}</td>
+    <td>
+      <button *ngIf="leave.status === 'PENDING'" (click)="updateLeaveStatus(leave.id!, 'APPROVED')">Approve</button>
+      <button *ngIf="leave.status === 'PENDING'" (click)="updateLeaveStatus(leave.id!, 'REJECTED')">Reject</button>
+    </td>
+  </tr>
+</table>
