@@ -47,15 +47,14 @@
 3. The API will be available at **http://localhost:8092/**.  
 
 ## **Screenshots**  
-![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/login.png
-)
-![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studashboard.png
-)
+![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/login.png)
+![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studashboard.png)
+
 ![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studb2.png)
 ![image alt](
 https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studb3.png)
-![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studb4.png
-)
+![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studb4.png)
+
 ![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/admindb.png)
  ![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/admindb2.png)
 ![image alt](https://github.com/Ramyasri1623/StudentLeavePortal/blob/684ef726329cbe0a2ca8785b5f08c94fedb814fa/studb5.png)
